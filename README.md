@@ -32,11 +32,6 @@
 
 ## 🧩 Projects  
 
-### 📝 **Blogging Platform (MERN)**  
-- Full-stack blog platform with **JWT authentication**, **CRUD posts**, and **secure APIs**.  
-- **Tech:** React.js, Tailwind CSS, Node.js, Express.js, MongoDB.  
-- https://writebase.vercel.app/
-
 ### ⚙️ **BoilerGen — SaaS Boilerplate Generator (Full-stack)**  
 - Modular **code generator** that composes a selected **stack + version + features** into a ready-to-deploy starter project (ZIP + mini docs).  
 - **Flow:** Users pick stack, version, and features → Small API enqueues a signed job → workers merge templates, run AST codemods, merge package.json & envs, zip and upload the artifact.  
@@ -45,6 +40,10 @@
 - **Tech:** Next.js 14, TypeScript, Tailwind CSS, Clerk (auth), Express (Small API), BullMQ + Redis, Node workers, PostgreSQL / Supabase, S3 / Supabase Storage, GitHub Actions, Docker.  
 - https://boilergen.vercel.app/
 
+### 📝 **Blogging Platform (MERN)**  
+- Full-stack blog platform with **JWT authentication**, **CRUD posts**, and **secure APIs**.  
+- **Tech:** React.js, Tailwind CSS, Node.js, Express.js, MongoDB.  
+- https://writebase.vercel.app/
 
 ### 🛍️ **Lazyvastra (Shopify E-commerce)**  
 - Shopify-based clothing platform with custom themes and payment integration.
