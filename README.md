@@ -51,12 +51,10 @@
 
 ## ⚡ Featured Project
 
-### 🛡️ **TradeStream Engine — Enterprise Trade Processing Platform**
+### 🛡️ **TradeStream Engine — Enterprise Trade Ingestion Platform**
 > **Java 17, Spring Boot 4.0, Spring Batch, PostgreSQL, AWS S3, Docker, GitHub Actions**  
-> *Enterprise-grade asynchronous trade file ingestion, verification, and lifecycle management system*
-
-<details open>
-<summary><b>🛠️ Deep-Dive Technical Highlights (ATS-Optimized)</b></summary>
+> *Enterprise-grade asynchronous trade file ingestion, verification, and lifecycle management system*  
+> 🔗 **Live Demo:** [d2i9y8go17l95q.cloudfront.net](https://d2i9y8go17l95q.cloudfront.net/)
 
 - **High-Performance Ingestion:** Architected a **5-module Maven system** (API, Service, Batch, DAO, Model) that ingests massive financial trade CSV files (up to **1GB**) with sub-second HTTP 202 upload response, processing them completely asynchronously via a robust scheduler-driven queue.
 - **Robust Processing Pipeline:** Engineered a chunk-based Spring Batch pipeline (**250 records/chunk**) featuring 21-field semantic validation, real-time progress indicators, in-batch duplicate detection using high-concurrency memory structures (`ConcurrentHashMap`), and bulk database deduplication.
@@ -66,7 +64,6 @@
 - **Production-Grade DevOps & CI/CD:** Developed a full-cycle GitHub Actions workflow incorporating JUnit 5 unit-gating, Docker multi-stage builds published to DockerHub, and SSH deployment to AWS EC2. Integrates an auto-recovery background service that resumes interrupted chunk ingestion on container restarts.
 - **Paginated Search & Query APIs:** Exposed 20+ REST endpoints utilizing dynamic filtering based on JPA Criteria APIs, allowing seamless paginated lookup across file metadata, trade validation errors, and clean records.
 - **Enterprise Testing Rigour:** Maintained high quality metrics using **JUnit 5**, **Mockito** mock objects, parameterized edge-case validators, and **Testcontainers PostgreSQL** integration environments, measured using **JaCoCo** reports.
-</details>
 
 ---
 
@@ -79,11 +76,12 @@
 - Enforced stateless user sessions using JWT security and styled with fully custom glassmorphic Tailwind designs.
 - [Live Demo](https://writebase.vercel.app/) | [Source Code](https://github.com/bharadwajbingi/writebase)
 
-### 🛍️ **Lazyvastra — Bespoke Shopify Solutions**
-> **Shopify Liquid, Custom Themes, JavaScript, CSS3, Payment Gateway Integration**
-- Programmed customized, highly responsive e-commerce web layouts that boosted client conversion rates by **25%**.
-- Integrated modern secure payment gateways including Stripe and Razorpay API pipelines.
-- Built back-office inventory managers and optimized critical assets, successfully shaving load times by **40%**.
+### 🛍️ **Lazyvastra — Custom D2C E-commerce Brand (Shopify & Liquid)**
+> **Shopify Liquid, Custom Themes, JavaScript, CSS3, Payment Gateways (Razorpay & Stripe)**
+- Founded and launched Lazyvastra, a custom direct-to-consumer e-commerce clothing brand.
+- Designed and built highly responsive Shopify store fronts from scratch, creating custom Shopify Liquid themes that drove storefront conversion rates up by **25%**.
+- Integrated secure Razorpay and Stripe API payment pipelines to process customer checkouts seamlessly.
+- Designed automated inventory sync controls and optimized media assets, reducing page loading latency by **40%**.
 
 ---
 
