@@ -2,7 +2,7 @@
 
 **Backend Engineer** building production systems in Java/Spring Boot and Node.js/TypeScript.
 
-Currently shipping transaction processing platforms and AI-powered chat agents. Previously intern at Mphasis.
+Currently shipping transaction processing platforms and full-stack web applications. Previously intern at Mphasis.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/bharadwajbingi)
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:bharadwajbingi555@gmail.com)
@@ -13,7 +13,7 @@ Currently shipping transaction processing platforms and AI-powered chat agents. 
 ## What I Work With
 
 **Backend:** Java 17, Spring Boot, Spring Batch, Spring Security, Node.js, Express, TypeScript  
-**Frontend:** React, Svelte, HTML/CSS  
+**Frontend:** React, HTML/CSS  
 **Database:** PostgreSQL, Redis, MongoDB, Flyway, HikariCP  
 **Cloud/DevOps:** AWS (EC2, S3), Docker, GitHub Actions, CI/CD  
 **Security:** JWT, OAuth2, TOTP 2FA, AES-256-GCM, Rate Limiting  
@@ -40,21 +40,6 @@ Processes CSV trade files up to 1GB asynchronously. Chunk-based batch pipeline (
 
 ---
 
-### AI Support Chat Agent
-> Real-time AI customer support | Node.js, TypeScript, Svelte, PostgreSQL, Redis, OpenAI API
-
-AI-powered live chat widget with LLM integration, conversation persistence, and session management. Built for extensibility to WhatsApp, Instagram, and other channels.
-
-**Key engineering decisions:**
-- Clean backend separation: routes / services / data layers
-- Context-aware prompting with conversation history injection
-- Domain-specific FAQ knowledge for accurate responses
-- Robust error handling: LLM timeouts, rate limits, graceful degradation
-- Input validation and adversarial testing (zero crashes)
-
-[Live Demo](#) | [Source Code](https://github.com/bharadwajbingi/ai-chat-agent)
-
----
 
 ### Writebase
 > Blogging platform | React, Node.js, Express, MongoDB, Gemini AI
