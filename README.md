@@ -12,7 +12,7 @@ Currently shipping transaction processing platforms and full-stack web applicati
 
 ## What I Work With
 
-**Backend:** Java 17, Spring Boot, Spring Batch, Spring Security, Node.js, Express, TypeScript  
+**Backend:** Java 17, Spring Boot, Spring Batch, Spring Security
 **Frontend:** React, HTML/CSS , JS
 **Database:** PostgreSQL, Redis, MongoDB, Flyway, HikariCP  
 **Cloud/DevOps:** AWS (EC2, S3), Docker, GitHub Actions, CI/CD  
