@@ -1,6 +1,6 @@
 # Bharadwaj Bingi
 
-**Backend Engineer** building production systems in Java/Spring Boot and Node.js/TypeScript.
+**Backend Engineer** building production systems in Java/Spring Boot
 
 Currently shipping transaction processing platforms and full-stack web applications. Previously intern at Mphasis.
 
@@ -13,7 +13,7 @@ Currently shipping transaction processing platforms and full-stack web applicati
 ## What I Work With
 
 **Backend:** Java 17, Spring Boot, Spring Batch, Spring Security, Node.js, Express, TypeScript  
-**Frontend:** React, HTML/CSS  
+**Frontend:** React, HTML/CSS , JS
 **Database:** PostgreSQL, Redis, MongoDB, Flyway, HikariCP  
 **Cloud/DevOps:** AWS (EC2, S3), Docker, GitHub Actions, CI/CD  
 **Security:** JWT, OAuth2, TOTP 2FA, AES-256-GCM, Rate Limiting  
